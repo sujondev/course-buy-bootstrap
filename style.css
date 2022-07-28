@@ -4,3 +4,7 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.course-name {
+    font-size: 20px;
+}
