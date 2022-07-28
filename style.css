@@ -6,5 +6,37 @@ body {
 }
 
 .course-name {
-    font-size: 20px;
+    font-size: 22px;
+}
+
+.btn-position {
+    position: relative;
+    left: 40%;
+}
+
+.banner-text {
+    position: relative;
+    bottom: 400px;
+    left: 20px;
+}
+
+.img-fliter {
+    filter: brightness(60%);
+}
+
+@media only screen and (max-width:576px) {
+    .banner-text {
+        position: relative;
+        bottom: 242px;
+        left: 10px;
+    }
+
+}
+
+@media only screen and (min-width:577px) and (max-width:995px) {
+    .banner-text {
+        position: relative;
+        bottom: 250px;
+        left: 10px;
+    }
 }
